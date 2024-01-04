@@ -7,7 +7,7 @@
     "gatsby"
   ],
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b main",
+    "deploy": "gatsby build && gh-pages -d public -b gh-pages",
     "develop": "gatsby develop -H 0.0.0.0",
     "start": "gatsby develop",
     "build": "gatsby build",
