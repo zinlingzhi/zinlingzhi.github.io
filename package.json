@@ -1,0 +1,61 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "portfolio",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b main",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "dev-plugins": "watch 'kill-port --port 8000 && gatsby develop' plugins ",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@types/react-helmet": "^6.1.6",
+    "@types/scrollreveal": "^0.0.11",
+    "@types/styled-components": "^5.1.26",
+    "animejs": "^3.2.1",
+    "gatsby": "^5.4.0",
+    "gatsby-plugin-image": "^3.5.0",
+    "gatsby-plugin-manifest": "^5.5.0",
+    "gatsby-plugin-offline": "^6.6.0",
+    "gatsby-plugin-react-helmet": "^6.5.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sharp": "^5.5.0",
+    "gatsby-plugin-sitemap": "^6.6.0",
+    "gatsby-plugin-styled-components": "^6.5.0",
+    "gatsby-plugin-typegen": "^3.1.0",
+    "gatsby-plugin-typescript": "^5.6.0",
+    "gatsby-remark-code-titles": "^1.1.0",
+    "gatsby-remark-external-links": "^0.0.4",
+    "gatsby-remark-images": "^7.6.0",
+    "gatsby-remark-prismjs": "^7.6.0",
+    "gatsby-source-filesystem": "^5.6.0",
+    "gatsby-transformer-remark": "^6.6.0",
+    "gatsby-transformer-sharp": "^5.6.0",
+    "kill-port": "^2.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-transition-group": "^4.4.5",
+    "scrollreveal": "^4.0.9",
+    "styled-components": "^5.3.6",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "@types/animejs": "^3.1.7",
+    "@types/node": "^18.14.0",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-transition-group": "^4.4.5",
+    "gh-pages": "^6.1.1",
+    "typescript": "^4.9.4"
+  }
+}
